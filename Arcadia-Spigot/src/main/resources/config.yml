@@ -1,0 +1,55 @@
+#
+#  Main Configuration File
+#      Arcadia-Spigot
+#
+
+# Language will default to en_US (English)
+# if the specified locale does not exist.
+language: "en_US"
+# Language will attempt to set to the player's
+# locale, then defaulting to the above setting.
+auto-detect-language: false
+
+# The root directory for loading maps.
+# %data_folder% = Arcadia-Spigot plugin directory
+map-directories:
+- "%data_folder%/maps/"
+
+# The default rotation (in order of appearance)
+default-rotation:
+- "me.redraskal.arcadia.game.DeadEndGame"
+- "me.redraskal.arcadia.game.TrampolinioGame"
+- "me.redraskal.arcadia.game.MusicalMinecartsGame"
+- "me.redraskal.arcadia.game.RedLightGreenLightGame"
+- "me.redraskal.arcadia.game.WingRushGame"
+- "me.redraskal.arcadia.game.RainbowJumpGame"
+- "me.redraskal.arcadia.game.PotionDropGame"
+- "me.redraskal.arcadia.game.SpleefGame"
+- "me.redraskal.arcadia.game.BombardmentGame"
+- "me.redraskal.arcadia.game.MineFieldGame"
+- "me.redraskal.arcadia.game.ColorShuffleGame"
+- "me.redraskal.arcadia.game.KingOfTheHillGame"
+- "me.redraskal.arcadia.game.HorseRaceGame"
+- "me.redraskal.arcadia.game.ElectricFloorGame"
+# Rotation is randomized after the end is reached.
+randomize: true
+# Toggles whether the rotation should be randomized at the server startup.
+randomize-first-rotation: true
+# Allows players to vote for their favorite game after matches end.
+allow-game-voting: false
+# A list of games allowed in the voting menu.
+games-in-voting:
+- "me.redraskal.arcadia.game.DeadEndGame"
+- "me.redraskal.arcadia.game.TrampolinioGame"
+- "me.redraskal.arcadia.game.MusicalMinecartsGame"
+- "me.redraskal.arcadia.game.RedLightGreenLightGame"
+- "me.redraskal.arcadia.game.WingRushGame"
+- "me.redraskal.arcadia.game.RainbowJumpGame"
+- "me.redraskal.arcadia.game.PotionDropGame"
+- "me.redraskal.arcadia.game.SpleefGame"
+- "me.redraskal.arcadia.game.BombardmentGame"
+- "me.redraskal.arcadia.game.MineFieldGame"
+- "me.redraskal.arcadia.game.ColorShuffleGame"
+- "me.redraskal.arcadia.game.KingOfTheHillGame"
+- "me.redraskal.arcadia.game.HorseRaceGame"
+- "me.redraskal.arcadia.game.ElectricFloorGame"
