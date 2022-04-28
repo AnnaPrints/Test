@@ -82,3 +82,11 @@ spotless {
         ktlint(ktlintVersion).userData(['max_line_length' : '100'])
     }
 }
+
+dependencies {
+    implementation 'junit:junit:4.13.1'
+    implementation 'junit:junit:4.13.1'
+    implementation 'junit:junit:4.13.1'
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+}
+//change
